@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Камень-Ножницы-Бумага</h1>
+            <div class="container-block">
+                <div class="count count-player">0</div>
+                <span>:</span>
+                <div class="count count-computer">0</div>
+            </div>
+            <div class="container-field">
+                <div class="player-field">
+                    <button class="rock field" data-choose="r"></button>
+                    <button class="scissors field" data-choose="s"></button>
+                    <button class="paper field" data-choose="p"></button>
+                </div>
+                <div class="computer-field">
+                    <button class="rock field" data-choose="r"></button>
+                    <button class="scissors field" data-choose="s"></button>
+                    <button class="paper field" data-choose="p"></button>
+                </div>
+            </div>
+            <h3 class="result">Сделайте выбор</h1>
+                <div class="congratulations">
+                    <div class="output"></div>
+                    <img class='image' id='win1' src="img/men.jpg" alt="men">
+                    <img class='image' id='win2' src="img/computer.jpg" alt="comp">
+                </div>
+        </div>
+        <button class="play">Играть заново</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
