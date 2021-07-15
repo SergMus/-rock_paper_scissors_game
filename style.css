@@ -181,3 +181,21 @@ h1::after {
     width: 100%;
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.35rem;
+    }
+    .count-player::before {
+            bottom: 25px;
+            left: -70px;
+            font-size: 20px;
+            color: #fff;
+        }
+        .count-computer::before {
+            bottom: 25px;
+            right: -100px;
+            font-size: 20px;
+            color: #fff;
+    }
+}
