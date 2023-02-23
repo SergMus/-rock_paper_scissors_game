@@ -53,7 +53,7 @@ window.onload = function () {
             case 'rs':
             case 'pr':
             case 'sp':
-                resultText.innerHTML = 'Вы победили!';
+                resultText.innerHTML = 'You win!';
                 document.querySelector('.count-player').innerHTML = countP;
                 countP++;
                 compItem.classList.add('error');
@@ -62,7 +62,7 @@ window.onload = function () {
             case 'sr':
             case 'rp':
             case 'ps':
-                resultText.innerHTML = 'Вы проиграли!';
+                resultText.innerHTML = 'You loose!';
                 document.querySelector('.count-computer').innerHTML = countC;
                 countC++;
                 playerFields.forEach(item => {
@@ -83,12 +83,12 @@ window.onload = function () {
             if (countP == 4) {
                 document.querySelector('.congratulations').style.display = 'block';
                 document.querySelector('#win1').style.display = 'inline';
-                document.querySelector('.output').innerHTML = 'Вы победили! Поздравляем'
+                document.querySelector('.output').innerHTML = 'You win! Congratulations'
             }
             if (countC == 4) {
                 document.querySelector('.congratulations').style.display = 'block';
                 document.querySelector('#win2').style.display = 'inline';
-                document.querySelector('.output').innerHTML = 'Компьютер победил! Попробуйте еще раз'
+                document.querySelector('.output').innerHTML = 'Computer wins! Try again'
 
             }
         }, 3000);
