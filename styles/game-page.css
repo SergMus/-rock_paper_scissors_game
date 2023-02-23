@@ -75,13 +75,13 @@
   background-color: rgb(122, 100, 247);
 }
 .paper {
-  background: url(/img/paper.png) center no-repeat;
+  background: url('/img/paper.png') center no-repeat;
 }
 .scissors {
-  background: url(/img/scissors.png) center no-repeat;
+  background: url('/img/scissors.png') center no-repeat;
 }
 .rock {
-  background: url(/img/rock.png) center no-repeat;
+  background: url('/img/rock.png') center no-repeat;
 }
 .result {
   letter-spacing: 1px;
