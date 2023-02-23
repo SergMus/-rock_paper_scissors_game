@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPS game</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/game-page.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1 class="title">Rock-paper-scissors</h1>
+        <div class="container-block">
+          <div class="count count-player">0</div>
+          <span>:</span>
+          <div class="count count-computer">0</div>
+        </div>
+        <div class="container-field">
+          <div class="player-field">
+            <button class="rock field" data-choose="r"></button>
+            <button class="scissors field" data-choose="s"></button>
+            <button class="paper field" data-choose="p"></button>
+          </div>
+          <div class="computer-field">
+            <button class="rock field" data-choose="r"></button>
+            <button class="scissors field" data-choose="s"></button>
+            <button class="paper field" data-choose="p"></button>
+          </div>
+        </div>
+        <h3 class="result">Make a choice</h3>
+        <div class="congratulations">
+          <div class="output"></div>
+          <img class="image" id="win1" src="./img/men.jpg" alt="men" />
+          <img class="image" id="win2" src="./img/computer.jpg" alt="comp" />
+        </div>
+      </div>
+      <button class="play">Play again</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
